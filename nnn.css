@@ -1,0 +1,310 @@
+*{margin: 0; padding: 0;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+	width: 100%;
+	padding:15px 10px;
+	height: 150px;
+	position: relative;
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+}
+
+header i{
+	font-size: 50px;
+	color: #308879;
+	
+}
+header .logo {
+	font-size: 50px;
+	color: #308879;
+}
+
+ nav ul{
+	list-style-type: none;
+	margin-top: 25px;
+	float:right;
+}
+ nav ul li{
+	display:inline-block;
+	text-decoration:none;
+	border:1px solid #fff  transparent;
+	transition: 0.6s ease;
+	
+}
+
+ nav ul li a{
+	padding:5px 20px;
+	font-size:25px;
+	color:#308879;
+	transition:letter-spacing .2s;
+	
+}
+	
+nav ul li a:hover{
+	background:#308879;
+	color:#fff;
+	letter-spacing:2px;
+	
+}
+nav ul li.active a{
+	background:#308879;
+	color:#fff;
+}
+
+.image img{
+	padding-top: 40px;
+	margin-left:55%;	
+}
+
+.container{
+	width: 50%;
+	padding-top: 40px;
+	margin-left: 25px;
+	align-items: left;
+	justify-content:space-around;
+}
+
+.container .content h1{
+	margin-left: 25px;
+	padding-top: 40px;
+	color: #308879;
+	font-size:55px;
+}
+
+.container .content h3{
+	margin-left: 25px;
+	color: #308879;
+	font-size:40px;
+	font-weight:normal;
+}
+
+.container .content p{
+	padding-top: 20px;
+	text-transform: capitalize;
+	color: #aaa;
+	margin-left: 20px;
+	font-size:20px;
+	font-weight:normal;
+}
+
+button{
+	margin-left: 20%;
+	outline:none;
+	border:none;
+	border-radius:50px;
+	background-color:#308879;
+	color: #fff;
+	font-size:17px;
+	height: 40px;
+	width: 50%;
+	cursor: pointer;
+}
+
+/*about */
+
+.heading {
+	margin-top: 2rem;
+	padding: 2rem;
+	text-align: center;
+	
+}
+
+.heading span {
+	font-size:3rem;
+	background:#ebebeb;
+	color:#308879;
+	border-radius: .5rem;
+	padding: .2rem 1rem;
+}
+
+.box-container{
+	gap: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+	cursor: pointer;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	margin-bottom: 6rem;
+}
+
+.box-container .box{
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.15);
+	margin-top:1rem ;
+	flex: 1 1 30rem;
+	border-radius: 1rem;
+	padding: 1rem 2rem;
+	text-align: center;
+}
+
+.box-container .box i{
+	padding:1rem;
+	font-size:4rem;
+	color:#308879 ;
+}
+
+.box-container .box h3{
+	font-size: 2rem;
+	color: #666;
+}
+
+.box-container .box p{
+	font-size:1rem;
+	color: #aaa;
+	padding: 1rem;
+}
+
+.box-container .box:hover{
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.5);
+}
+
+/* teacher section*/
+.sandeep{
+	text-align: center;
+}
+
+.sandeep img{
+	width: 20rem;
+	height: 25rem;
+	border:1px solid #aaa;
+	border-radius:10px;
+}
+
+.text-big{
+	text-align: center;
+	color:#308879; 
+	font-size:  40px;
+	font-family: 'Electrolize', sans-serif;
+	
+}
+.big{
+	text-align: center;
+	color:#308879; 
+	font-size:  25px;
+	font-family: 'Electrolize', sans-serif;
+}
+
+.text-small{
+  text-align: center;
+	color: #aaa;
+	font-size: 18px;
+	font-family: 'Electrolize', sans-serif;
+	margin-left: 7rem;
+	margin-right: 7rem;
+
+}
+.bhawna{
+	margin-top:3rem;
+	text-align: center;
+}
+
+.bhawna img{
+	width: 20rem;
+	height: 25rem;
+	border:1px solid #aaa;
+	border-radius:10px;
+}
+
+.sanjay{
+	margin-top:3rem;
+	text-align: center;
+}
+
+.sanjay img{
+	height: 25rem;
+	border:1px solid #aaa;
+	border-radius:10px;
+}
+
+.nitin{
+	margin-top:3rem;
+	text-align: center;	
+}
+
+.nitin img{
+	height: 25rem;
+	width: 20rem;
+	border:1px solid #aaa;
+	border-radius:10px;
+}
+
+/* gallery */
+
+.box-container{
+	display:flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+
+.box-container .box{
+	overflow: hidden;
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+	border: 1rem solid #fff;
+	border-radius:.5rem;
+	flex: 1 1 30rem;
+	height: 25rem;
+	position: relative;
+}
+
+.box-container .box img{
+	height:100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.box-container .box .content{
+	position: absolute;
+	top: -100%; left: 0;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background:#aaa;
+	padding:2rem;
+	padding-top:5rem;
+}
+
+.box-container .box:hover .content{
+	top:0;
+}
+
+.box-container .box .content h3{
+	font-size:2.5rem ;
+	color: #308879;
+}
+
+.box-container .box .content p{
+	font-size:1.5rem ;
+	color:#eee;
+	padding:.5rem 0;
+
+}
+
+/*button*/
+.btn{
+	padding: 0.3rem;
+	outline:none;
+	border:none;
+	background-color:#308879;
+	color: #fff;
+	font-size:2rem;
+	cursor: pointer;
+}
+
+/*content*/
+
+.imag img{
+	width: 50%;
+}
+
+.row {
+	display:flex;
+	padding: auto;
+}
+
+.inputBox{
+	
+	justify-content: space-between;
+}
