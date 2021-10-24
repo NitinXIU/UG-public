@@ -294,17 +294,81 @@ button{
 }
 
 /*content*/
-
-.imag img{
-	width: 50%;
+.left{
+	flex-basis: 60%;
+	padding: 40px 60px;	
 }
-
-.row {
-	display:flex;
-	padding: auto;
-}
-
-.inputBox{
+.left h3{
+	font-size:2rem;
+	color:#308879;
 	
-	justify-content: space-between;
 }
+.right{
+	flex-basis:40%;
+	padding: 40px;
+	background:#308879;
+	color: #fff;
+}
+.inputBox{
+	margin-top:2rem;
+
+}
+.mbox{
+	margin-top:2rem;
+}
+
+.row{
+	
+	display: flex;
+	justify-content:space-between;
+	margin-bottom:20px;
+}
+
+input{
+	width: 100%;
+	
+	border: none;
+	border-bottom:1px solid #ccc;
+	outline: none;
+	padding-bottom: 5px;
+}
+label{
+	margin-bottom:6px;
+	display: block;
+	color: #308879;
+	font-size:20px;
+}
+.mbtn{
+	margin-left: 20%;
+	outline:none;
+	border:none;
+	border-radius:50px;
+	background-color:#308879;
+	color: #fff;
+	font-size:20px;
+	height: 40px;
+	width: 50%;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
