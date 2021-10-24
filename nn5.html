@@ -9,6 +9,10 @@
 	<link rel="icon" sizes="192x192" href="school-solid.svg">
 	<title>Contact Us</title>
 </head>
+<script src="messages_service.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script type="text/javascript">(function() {emailjs.init("user_EEJK1K0kC9F20Lx4khjSq");})();
+</script>
 <body>
 
 	<header>
@@ -48,17 +52,17 @@
 		<form action="">
 			<div class="inputBox">
 				<label>Name</label>
-				<input type="text" placeholder="name">
+				<input type="text" id="toName" placeholder="name">
 			</div>
 			<div class="inputBox">
 				<label>Email</label>
-				<input type="email" placeholder="email">
+				<input type="email"  id="fromName" placeholder="email">
 			</div>
 			<div class="mbox">
 				<label>message</label>
-			<textarea placeholder="message" name="" id="" cols="75" rows="10"></textarea>
+			<textarea placeholder="message" name="" id="msg" cols="75" rows="10"></textarea>
 			</div>	
-			<input type="submit"  class="mbtn" value="send message">
+			<input type="submit" onclick="sendMail()" class="mbtn" value="send message">
 		</form>	
 		
 	</div>
